@@ -1,0 +1,8 @@
+set_property PACKAGE_PIN U14 [get_ports beep]
+set_property IOSTANDARD LVCMOS33 [get_ports beep]
+set_property PACKAGE_PIN H15 [get_ports enable]
+set_property PACKAGE_PIN G15 [get_ports rst_n]
+set_property PACKAGE_PIN N18 [get_ports clk]
+set_property IOSTANDARD LVCMOS33 [get_ports clk]
+set_property IOSTANDARD LVCMOS33 [get_ports enable]
+set_property IOSTANDARD LVCMOS33 [get_ports rst_n]
