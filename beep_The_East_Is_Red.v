@@ -23,7 +23,8 @@
 module beep_The_East_Is_Red
 #(parameter time_1s =26'd49_999_999,
 parameter time_500ms =25'd24_999_999,
-parameter DO =18'd190840,
+parameter LAA3 =18'd227272,
+parameter DO =18'd191570,
 parameter RE =18'd170068,
 parameter MI =18'd151515,
 parameter FA =18'd143266,
@@ -125,7 +126,7 @@ begin
         7'd4:freq<=DO;
         
         7'd5:freq<=DO;
-        7'd6:freq<=LA; 
+        7'd6:freq<=LAA3; 
         
         7'd7:freq<=RE;
         //太'阳'升
@@ -142,7 +143,7 @@ begin
         7'd14:freq<=DO; 
         
         7'd15:freq<=DO;
-        7'd16:freq<=SO;
+        7'd16:freq<=LAA3;
         
         7'd17:freq<=RE;
         //中国出了个毛泽东 
